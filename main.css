@@ -1,0 +1,184 @@
+#embeded iframe{ width: 100%; }
+
+nav {
+  background-color: #fff;
+  height: 100px;
+}
+
+nav a {
+  color: #257c92;
+}
+
+.nav-link a {
+  color: #257c92;
+  height: 100px;
+  line-height: 100px;
+}
+
+.nav-link a i {
+  line-height: 100px;
+}
+
+#dropdown1, #dropdown2 {
+  margin-top: 100px;
+}
+
+#dropdown1 li a, #dropdown2 li a {
+  color: #257c92;
+}
+
+a {
+  text-decoration: none;
+}
+
+.drop {
+  height: 50px;
+}
+
+.home-banner {
+  background-color: #257c92;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  padding: 0 24px;
+}
+
+.headshot {
+  height: 75vh;
+  margin-top: 48px;
+}
+
+.nav-logo {
+  content: url('./images/chrisD-logo-dark.svg');
+  height: 100px;
+  padding-left: 24px;
+}
+
+.footer-wrapper {
+  background: #002e42;
+}
+
+.footer-wrapper small, a {
+  color: #fff;
+} 
+
+.footer-logo {
+  content: url('./images/chrisD-logo-light.svg');
+  height: 150px;
+  padding: 10px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 24px;
+  font-size: 1.25em;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.8em;
+}
+
+.brokerage {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.brokerage img {
+  width: 50%;
+  margin: 8px auto;
+}
+
+.social {
+  font-size: 2.5em;
+}
+
+.contact {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact i {
+  margin-right: 8px;
+}
+
+.cell, .email, .address {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+}
+
+.banner-CTA {
+  padding: 16px;
+}
+
+.banner-CTA h5 {
+  margin-top: 0;
+  color: #696a6a;
+}
+
+.banner-CTA   a {
+  margin-left: 8px;
+}
+
+.banner-content {
+  margin: 0 auto;
+}
+
+.banner-logo {
+  content: url("./images/chrisD-logo-wht.svg");
+}
+
+.sub-CTA {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#connect-btn  {
+  background: #257c92;
+}
+
+.featured-content, .search-content, .sold-content, .mortgage-content, .home-featured, .contact-content, .sold-content {
+  margin: 50px auto;
+  width: 80%;
+}
+
+.landing {
+  background: #00a4e9;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  height: 100vh;
+}
+
+.contact-form {
+  display: flex;
+}
+
+.contact-form-header {
+  padding: 10px;
+  margin-left: 8px;
+}
+
+.contact-form .row {
+  margin: 0;
+  width: 75%;
+}
+
+.contact-sidebar-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-sidebar-info a, .contact-sidebar-info address {
+  color: #000;
+  margin-left: 8px;
+}

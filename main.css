@@ -19,12 +19,23 @@ nav a {
   line-height: 100px;
 }
 
-#dropdown1, #dropdown2 {
-  margin-top: 100px;
+.drop a {
+  height: fit-content;
 }
 
-#dropdown1 li a, #dropdown2 li a {
+.dropdown-content {
+  overflow-y: visible;
+}
+
+#dropdown3, #dropdown4 {
+  left: 100% !important;
+  top: 0 !important;
+  width: 150px;
+}
+
+.dropdown-content li a {
   color: #257c92;
+  font-size: 0.7em ; 
 }
 
 a {
